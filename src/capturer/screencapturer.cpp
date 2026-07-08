@@ -191,7 +191,7 @@ bool ScreenCapturer::start(CapturedFrameCallback cb)  //return true作为启动�
             }
         }
 
-        av_packet_unref(packet);   //释放packet里面的内容的意思吧
+        av_packet_unref(packet);
     }
 
     av_packet_free(&packet);
