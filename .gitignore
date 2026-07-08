@@ -1,0 +1,41 @@
+
+# 编译输出目录
+build/
+[Dd]ebug/
+[Rr]elease/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+
+
+# 编译输出
+Debug/
+Release/
+build*/
+*-build*/
+
+# 编译中间文件
+*.o
+*.obj
+*.moc
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+.qmake.stash
+.qmake.super
+Makefile
+
+# FFmpeg 库（如果本地存放了 DLL）
+*.dll
+*.so
+
+# 系统
+.DS_Store
+Thumbs.db
